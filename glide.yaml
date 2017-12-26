@@ -1,0 +1,11 @@
+package: 51nap.com/grpc_demo
+import:
+- package: github.com/slover2000/prisma/etcdv3
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/grpc
+  version: ^v1.8.0
